@@ -24,9 +24,42 @@ This project is a class library designed to help develop solutions to various le
     npm install
 
 
-### Setting up visual studio for debugging
+### To set up debugging in visual studio
 
-You will need to include a launch.json (and maybe tasks.json) file in /.vscode folder
+You will need to include a launch.json file in /.vscode folder
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/dist/index.js",
+            "preLaunchTask": "Compile TypeScript",
+            "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+            "sourceMaps": true
+        }
+    ]
+}
+
+And also a tasks.json file
+```json
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile TypeScript",
+            "type": "shell",
+            "command": "npx tsc",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$tsc"
+        }
+    ]
+}
 
 ### Testing
 ```npm run test```
