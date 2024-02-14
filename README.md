@@ -14,9 +14,8 @@ This project is a class library designed to help develop solutions to various le
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/yourprojectname.git
+1. ```bash
+   git clone https://github.com/frankomackonelee/leet-code-typescript-work.git
    ```
 2. ```bash 
     cd leet-code-typescript-work
@@ -24,3 +23,13 @@ This project is a class library designed to help develop solutions to various le
 3. ```bash
     npm install
     ```
+
+### Setting up visual studio for debugging
+
+You will need to include a launch.json (and maybe tasks.json) file in /.vscode folder
+
+### Testing
+```npm run test```
+
+### Running
+```npm build && start```
