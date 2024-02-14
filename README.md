@@ -68,8 +68,10 @@ And also a tasks.json file
 
 ### Testing
 ```bash
-npm run test```
+npm run test
+```
 
 ### Running
 ```bash
-npm build && start```
+npm build && start
+```
