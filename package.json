@@ -1,0 +1,19 @@
+{
+  "name": "leet-code-typescript-work",
+  "version": "1.0.0",
+  "description": "Solution to store my solutions to leet code problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Francis Malone-Lee",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}
