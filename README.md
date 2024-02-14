@@ -16,13 +16,13 @@ This project is a class library designed to help develop solutions to various le
 
 1. ```bash
    git clone https://github.com/frankomackonelee/leet-code-typescript-work.git
-   ```
+
 2. ```bash 
     cd leet-code-typescript-work
-    ```
+
 3. ```bash
     npm install
-    ```
+
 
 ### Setting up visual studio for debugging
 
