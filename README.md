@@ -16,12 +16,15 @@ This project is a class library designed to help develop solutions to various le
 
 1. ```bash
    git clone https://github.com/frankomackonelee/leet-code-typescript-work.git
+   ```
 
 2. ```bash 
     cd leet-code-typescript-work
+    ```
 
 3. ```bash
     npm install
+    ```
 
 
 ### To set up debugging in visual studio
@@ -42,6 +45,7 @@ You will need to include a launch.json file in /.vscode folder
         }
     ]
 }
+```
 
 And also a tasks.json file
 ```json
@@ -60,9 +64,12 @@ And also a tasks.json file
         }
     ]
 }
+```
 
 ### Testing
-```npm run test```
+```bash
+npm run test```
 
 ### Running
-```npm build && start```
+```bash
+npm build && start```
